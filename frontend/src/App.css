@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.main {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+}
+.task-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5px;
+}
+li {
+  list-style: none;
+  margin: 0 8px 0px 8px;
+}
+button {
+  padding-left: 2px;
+}
+.edit {
+  background-color: #17a7cf;
+  color: white;
+}
+.delete {
+  background-color: #d60808;
+  color: white;
+}
